@@ -1,0 +1,63 @@
+
+.body {
+margin: 0;
+
+}
+
+.intro {
+
+overflow: hidden;
+position: relative;
+background: url("trara.jpg") center no-repeat;
+background-size: cover;
+}
+
+.intro:after {
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+background-color: rgba(0, 0, 0, 0.7);
+position: absolute;
+top: 0;
+left: 0;
+z-index: 2;
+}
+
+.video {
+position: relative;
+z-index: 1;
+height: 813px;
+}
+
+.intro_content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+z-index: 3;
+}
+
+.video_terk {
+width: auto ;
+height: auto;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.intro_title {
+margin: 0;
+font-size: 40px;
+color: white;
+}
+
+.container {
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+}
